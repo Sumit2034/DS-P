@@ -16,9 +16,9 @@ public class Heap_sort {
 	{
 		int length = heap.length;
 		
-		for(int i=0;i<=length/2-1;i++)
+		for(int i=0;i<length/2-1;i++)
 		{
-			heapify(heap,length,0);
+			heapify(heap,length,i);
 		}
 		for(int i=length-1; i>=0; i--)
 		{
